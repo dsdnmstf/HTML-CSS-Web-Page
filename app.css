@@ -255,3 +255,42 @@ form {
 .up-btn:hover i {
   color: white;
 }
+
+/*! *********** FOOTER *******************/
+
+footer {
+  color: white;
+  font-weight: 1.5 rem;
+  background-color: rgba(0, 0, 0, 0.712);
+}
+footer .social-icons {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  padding: 2rem;
+}
+
+footer .social-icons a {
+  background-color: white;
+  border: 1px solid #9e3490;
+  border-radius: 50%;
+  width: 3rem;
+  height: 3rem;
+  margin-right: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+footer .social-icons .fab {
+  color: #9e3490;
+}
+
+.social-icons a:hover {
+  background-color: #9e3490;
+}
+
+.social-icons a:hover .fab {
+  color: white;
+}
